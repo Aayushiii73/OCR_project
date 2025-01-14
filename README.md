@@ -27,12 +27,14 @@ Workflow
 3. OCR Processing:
 Feed each bounding box into the combined OCR system.
 Generate LaTeX code for mathematical expressions and extract alphabetical text.
+![image](https://github.com/user-attachments/assets/c3bcab43-4cf3-45ea-9a02-10fb40e17989)
 
 4. Post-Processing:
 Use GPT-2 to refine and combine outputs into final LaTeX code for each bounding box.
 
 5. Answer Sheet Scoring:
 Compare extracted text with answer keys using cosine similarity. Generate scores for each answer sheet.
+![image](https://github.com/user-attachments/assets/f87fa4ca-94a9-46ef-bd09-924bc1ff0a70)
 
 Dependencies
 
