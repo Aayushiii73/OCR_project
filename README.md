@@ -36,8 +36,6 @@ Use GPT-2 to refine and combine outputs into final LaTeX code for each bounding 
 5. Answer Sheet Scoring:
 Compare extracted text with answer keys using cosine similarity. Generate scores for each answer sheet.
 
-![image](https://github.com/user-attachments/assets/fb9310f8-bea4-49ae-bcbd-5c8ad21d707f)
-
 Dependencies
 
 OCR Tools:
