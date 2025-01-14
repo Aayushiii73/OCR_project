@@ -21,12 +21,14 @@ Workflow
 1. PDF to Images: Convert each page of the PDF into images.
 
 2. Bounding Box Detection: Identify bounding boxes around paragraphs in the images.
+   
    ![image](https://github.com/user-attachments/assets/97dca63e-71a1-431f-9c21-7c5b9d796ec8)
 
 
 3. OCR Processing:
 Feed each bounding box into the combined OCR system.
 Generate LaTeX code for mathematical expressions and extract alphabetical text.
+
 ![image](https://github.com/user-attachments/assets/c3bcab43-4cf3-45ea-9a02-10fb40e17989)
 
 4. Post-Processing:
