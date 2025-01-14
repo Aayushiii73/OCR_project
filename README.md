@@ -21,17 +21,22 @@ Workflow
 1. PDF to Images: Convert each page of the PDF into images.
 
 2. Bounding Box Detection: Identify bounding boxes around paragraphs in the images.
+![image](https://github.com/user-attachments/assets/396976a5-7c3f-4a5a-b302-0efda7562981)
+
 
 3. OCR Processing:
 Feed each bounding box into the combined OCR system.
 Generate LaTeX code for mathematical expressions and extract alphabetical text.
+![image](https://github.com/user-attachments/assets/afa7ad89-0047-4ccf-b12c-941800c5e31b)
+
 
 4. Post-Processing:
 Use GPT-2 to refine and combine outputs into final LaTeX code for each bounding box.
 
 5. Answer Sheet Scoring:
 Compare extracted text with answer keys using cosine similarity. Generate scores for each answer sheet.
-![image](https://github.com/user-attachments/assets/f87fa4ca-94a9-46ef-bd09-924bc1ff0a70)
+
+![image](https://github.com/user-attachments/assets/fb9310f8-bea4-49ae-bcbd-5c8ad21d707f)
 
 Dependencies
 
