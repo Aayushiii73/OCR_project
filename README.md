@@ -50,7 +50,7 @@ Use Cases
 
 Installation
 
-Clone the repository: git clone https://github.com/your-repo/OCR_project.git
+Clone the repository: git clone https://github.com/Aayushiii73/OCR_project.git
 
 Install the required dependencies: pip install -r requirements.txt
 
